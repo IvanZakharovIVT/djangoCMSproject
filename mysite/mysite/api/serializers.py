@@ -1,9 +1,3 @@
-# api/serializers.py
-import json
-from django.core.serializers.json import DjangoJSONEncoder
-from cms.models.pluginmodel import CMSPlugin
-
-
 class PluginSerializer:
     """Простой сериализатор для плагинов CMS"""
 
